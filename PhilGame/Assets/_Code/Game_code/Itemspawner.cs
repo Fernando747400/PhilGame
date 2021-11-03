@@ -21,6 +21,7 @@ public class Itemspawner : MonoBehaviour
         ChoosenItem = pickRandomItem(ItemsToSpawn);
         ChoosenItem.SetActive(true);
         ChoosenItem.transform.position = pickRandomSpawn(SpawnPoints).position;
+        EventsManager.current.newItem(ChoosenItem);
     }
 
     public void SubscibeEvent()
