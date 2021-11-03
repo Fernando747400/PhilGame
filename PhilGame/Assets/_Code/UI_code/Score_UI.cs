@@ -7,9 +7,13 @@ public class Score_UI : MonoBehaviour
 {
     [SerializeField] private Text scoreText;
 
-    // Update is called once per frame
-    void Update()
+    public void Start()
     {
-        scoreText.text = PointSystem.Score.ToString()+"/7";
+        EventsManager.current.onItemPickup += updateScore;
+    }
+
+    public void updateScore()
+    {
+        scoreText.text = PointSystem.Score.ToString();
     }
 }
