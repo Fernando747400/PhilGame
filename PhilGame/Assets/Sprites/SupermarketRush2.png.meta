@@ -1,7 +1,28 @@
 fileFormatVersion: 2
 guid: de30bb1bbf2c2cb45a530a6b1e05c9c6
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 2768004577429198185
+    second: SupermarketRush2_0
+  - first:
+      213: 8029870773840684514
+    second: SupermarketRush2_1
+  - first:
+      213: 5560885693039546898
+    second: SupermarketRush2_2
+  - first:
+      213: 7915772835810109290
+    second: SupermarketRush2_3
+  - first:
+      213: 7573634441727075087
+    second: SupermarketRush2_4
+  - first:
+      213: 4874557581035448206
+    second: SupermarketRush2_5
+  - first:
+      213: 3423397163226050375
+    second: SupermarketRush2_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +62,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -137,7 +158,154 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SupermarketRush2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 4690
+        height: 10150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96592566f7de96620800000000000000
+      internalID: 2768004577429198185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupermarketRush2_1
+      rect:
+        serializedVersion: 2
+        x: 6249
+        y: 8866
+        width: 3294
+        height: 1005
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5a01bbce4df6f60800000000000000
+      internalID: 8029870773840684514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupermarketRush2_2
+      rect:
+        serializedVersion: 2
+        x: 5919
+        y: 7734
+        width: 4152
+        height: 995
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2129c22331c3c2d40800000000000000
+      internalID: 5560885693039546898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupermarketRush2_3
+      rect:
+        serializedVersion: 2
+        x: 6548
+        y: 6506
+        width: 2812
+        height: 1005
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67e52164797add60800000000000000
+      internalID: 7915772835810109290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupermarketRush2_4
+      rect:
+        serializedVersion: 2
+        x: 5934
+        y: 1548
+        width: 4025
+        height: 4654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f036ecdd564fa1960800000000000000
+      internalID: 7573634441727075087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupermarketRush2_5
+      rect:
+        serializedVersion: 2
+        x: 5228
+        y: 213
+        width: 2310
+        height: 1264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e872ece1b48e5a340800000000000000
+      internalID: 4874557581035448206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupermarketRush2_6
+      rect:
+        serializedVersion: 2
+        x: 8091
+        y: 203
+        width: 2305
+        height: 1264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f2b2ff499528f20800000000000000
+      internalID: 3423397163226050375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
