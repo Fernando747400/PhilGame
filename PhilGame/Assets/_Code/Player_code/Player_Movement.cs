@@ -18,6 +18,22 @@ public class Player_Movement : MonoBehaviour
         controller = GetComponent<CharacterController>();
     }
 
+    public void Start()
+    {
+        EventsManager.current.onGameOver += finishInput;
+        this.enabled = false;
+    }
+
+    public void startInput()
+    {
+        this.enabled = true;
+    }
+
+    public void finishInput()
+    {
+        this.enabled = false;
+    }
+
     public void OnEnable()
     {
         playerInput.Enable();
@@ -29,6 +45,11 @@ public class Player_Movement : MonoBehaviour
     }
 
     public void Update()
+    {
+        MovePlayer();
+    }
+
+    private void MovePlayer()
     {
         groundedPlayer = controller.isGrounded;
         if (groundedPlayer && playerVelocity.y < 0)
