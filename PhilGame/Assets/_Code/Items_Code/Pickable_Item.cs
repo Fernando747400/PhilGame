@@ -5,6 +5,7 @@ using System;
 
 public class Pickable_Item : MonoBehaviour
 {
+    [SerializeField] private AudioSource mySound;
     private Vector3 InitialPosition;
     public void Awake()
     {
@@ -17,6 +18,7 @@ public class Pickable_Item : MonoBehaviour
         {
             this.transform.position = InitialPosition;
             PointSystem.Score++;
+            mySound.Play();
             this.gameObject.SetActive(false);
             EventsManager.current.pickedItem();
         }
