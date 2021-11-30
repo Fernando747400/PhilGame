@@ -10,6 +10,7 @@ public class Timer_UI : MonoBehaviour
     [SerializeField] private AudioSource myAudio;
     private float time = 60;
     private bool isPlaying;
+    private Color initialColor;
 
     public void Start()
     {
@@ -18,6 +19,7 @@ public class Timer_UI : MonoBehaviour
         EventsManager.current.onStartGameplay += startGame;
         EventsManager.current.onGameOver += endGame;
         EventsManager.current.onItemPickup += addTime;
+        initialColor = timerText.color;
     }
 
     void Update()
@@ -47,14 +49,17 @@ public class Timer_UI : MonoBehaviour
             if(time <= 10)
             {
                 myAudio.pitch = 1.3f;
+                timerText.color = Color.red;
             } else if (time > 10)
             {
                 myAudio.pitch = 1;
+                timerText.color = initialColor;
             }
         }
         if (time <= 0)
         {
             myAudio.pitch = 1;
+            timerText.color = initialColor;
         }
     }
 
@@ -71,5 +76,6 @@ public class Timer_UI : MonoBehaviour
     public void addTime()
     {
         time = time + 2;
+        iTween.PunchScale(timerText.gameObject, new Vector3(0.2f,0.2f,0.2f),2f);
     }
 }

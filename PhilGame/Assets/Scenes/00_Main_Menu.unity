@@ -897,9 +897,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Fernando Javier Cossio Ruiz\nIng. Desarollo de \nAplicaciones Interactivas\ny
+  m_Text: "Fernando Cossio \"F747\"\nIng. Desarollo de \nAplicaciones Interactivas\ny
     Videojuegos\nDiseno de videojuegos\nRVOE CDMX. No. 20200758\nAmerike 2022-1\nMexico
-    2021\n\n"
+    2021\nCart: Jelle Vermandere\nSFX: zapsplat.com \n\n"
 --- !u!222 &1027646914
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1655,11 +1655,11 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: "El contenido visual y sonoro incluidos \nen esta aplicaci\xF3n son propiedad
-    de \nsus respectivos autores originales \ny/o de aquellos quienes mantengan\n
-    los derechos de propiedad \nintelectual e industrial de los mismos.\nSu uso es
-    exclusivo para fines acad\xE9micos.\n El autor no se adjudica\n en ning\xFAn
-    momento la autor\xEDa del material \nutilizado para complementar\n el contenido
-    de esta aplicaci\xF3n.\n\nTodos los sonidos y musica es de:\nwww.zapsplat.com"
+    de \nsus respectivos autores originales \ny/o de aquellos quienes mantengan\nlos
+    derechos de propiedad \nintelectual e industrial de los mismos.\nSu uso es exclusivo
+    para fines acad\xE9micos.\n El autor no se adjudica\n en ning\xFAn momento la
+    autor\xEDa del material \nutilizado para complementar\n el contenido de esta
+    aplicaci\xF3n.\n\nTodos los sonidos y musica es de:\nwww.zapsplat.com"
 --- !u!222 &1628298426
 CanvasRenderer:
   m_ObjectHideFlags: 0

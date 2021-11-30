@@ -32,6 +32,7 @@ public class Player_Movement : MonoBehaviour
 
     public void finishInput()
     {
+        mySound.Stop();
         this.enabled = false;
     }
 

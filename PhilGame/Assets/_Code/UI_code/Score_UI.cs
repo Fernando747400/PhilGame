@@ -15,5 +15,6 @@ public class Score_UI : MonoBehaviour
     public void updateScore()
     {
         scoreText.text = PointSystem.Score.ToString();
+        iTween.PunchScale(scoreText.gameObject,new Vector3(0.1f,0.1f,0.1f),1f);
     }
 }
