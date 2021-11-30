@@ -11,6 +11,7 @@ public class Player_Movement : MonoBehaviour
     //[SerializeField] private float jumpHeight = 1.0f;
     [SerializeField] private float gravityValue = -9.81f;
     private Player_Joystick playerInput;
+    [SerializeField] private AudioSource mySound;
 
     public void Awake()
     {
@@ -60,6 +61,7 @@ public class Player_Movement : MonoBehaviour
         Vector2 movementInput = playerInput.Joystick_Main.Move.ReadValue<Vector2>();
         Vector3 move = new Vector3(movementInput.x, 0, movementInput.y);
         controller.Move(move * Time.deltaTime * playerSpeed);
+        audioManager(move);
 
         if (move != Vector3.zero)
         {
@@ -74,5 +76,18 @@ public class Player_Movement : MonoBehaviour
         */
         playerVelocity.y += gravityValue * Time.deltaTime;
         controller.Move(playerVelocity * Time.deltaTime);
+    }
+
+    private void audioManager(Vector3 moveSpeed)
+    {
+        if (moveSpeed != Vector3.zero)
+        {
+            if (!mySound.isPlaying)
+            {
+                mySound.Play();
+            }
+        } else if (moveSpeed == Vector3.zero){
+            mySound.Stop();
+        }
     }
 }
